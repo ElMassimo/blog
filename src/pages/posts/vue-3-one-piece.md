@@ -1,14 +1,13 @@
 ---
 title: Announcing Vue 3.0 "One Piece"
 date: 2020-09-18
+href: /posts/vue-3-one-piece
 author: Evan You
 gravatar: eca93da2c67aadafe35d477aa8f454b8
 twitter: "@youyuxi"
 ---
 
-<p align="center">
-  <img width="200" src="https://user-images.githubusercontent.com/499550/93624428-53932780-f9ae-11ea-8d16-af949e16a09f.png">
-</p>
+![image](https://user-images.githubusercontent.com/499550/93624428-53932780-f9ae-11ea-8d16-af949e16a09f.png)
 
 Today we are proud to announce the official release of Vue.js 3.0 "One Piece". This new major version of the framework provides improved performance, smaller bundle sizes, better TypeScript integration, new APIs for tackling large scale use cases, and a solid foundation for long-term future iterations of the framework.
 

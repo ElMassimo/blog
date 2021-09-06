@@ -1,7 +1,9 @@
-<script setup>
-import { useData } from 'vitepress'
+<script setup lang="ts">
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 
-const { frontmatter } = useData()
+const route = useRoute()
+const frontmatter = computed(() => route.meta.frontmatter)
 </script>
 
 <template>

@@ -3,18 +3,23 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vitepress",
-    "build": "vitepress build && node ./.vitepress/genFeed",
-    "serve": "vitepress serve"
+    "dev": "vite",
+    "build": "vite-islands build",
+    "feed": "node ./scripts/genFeed",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.4.1",
-    "cheap-watch": "^1.0.3",
+    "@iconify/json": "1.1.393",
+    "@mussi/vite-ssg": "^0.14.8",
+    "@vue/compiler-sfc": "^3.2.9",
+    "@vue/server-renderer": "^3.2.9",
+    "@vueuse/core": "^6.2.0",
+    "@vueuse/head": "^0.6.0",
     "feed": "^4.2.1",
-    "gray-matter": "^4.0.2",
-    "vitepress": "^0.16.0"
-  },
-  "dependencies": {
-    "tailwindcss": "^2.2.7"
+    "vite": "^2.5.3",
+    "vite-islands": "^0.0.1",
+    "vite-plugin-pages": "^0.18.0",
+    "vite-plugin-vue-layouts": "^0.4.1",
+    "vite-plugin-windicss": "^1.4.1"
   }
 }
